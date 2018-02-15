@@ -25,8 +25,8 @@
         <tr>
           <td>Año</td>
           <td>Institución</td>
-          <td>Lugar</td>
           <td>Titulo</td>
+          <td>Lugar</td>
           <td>¿Culminó?</td>
         </tr>
       </thead>
@@ -55,7 +55,7 @@
       </tbody>
     </table>
     <form class="" action="index.html" method="post">
-      <h4>Agregar Estudios</h4>
+      <h3>Agregar Estudios</h3>
       <p>
         <label for="">Año</label>
         <select name="año">
@@ -68,7 +68,23 @@
       </p>
       <p>
         <label for="">Institucion</label>
-        <input type="text" name="" value="">
+        <input type="text" name="institucion" value="">
+      </p>
+      <p>
+        <label for="">Titulo</label>
+        <input type="text" name="titulo" value="">
+      </p>
+      <p>
+        <label for="">Lugar</label>
+        <input type="text" name="lugar" value="">
+      </p>
+      <p>
+        <label for="">¿Culminó?</label>
+        <input type="radio" name="siculmino" value="">Si
+        <input type="radio" name="noculmino" value="">No <br>
+      </p>
+      <p>
+        <input type="submit" name="btnenviar" value="Enviar">
       </p>
     </form>
   </body>
